@@ -1,0 +1,14 @@
+{
+    "name": "laroo/dirty-brute-force-equation-solver",
+    "description": "A PHP Composer class that's solves your 'complex' equations the dirty brute force way!",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan-Age Laroo",
+            "email": "jan-age@minus3.nl"
+        }
+    ],
+    "autoload": {
+        "classmap": ["class.DirtyBruteForceEquationSolver.php"]
+    }
+}
