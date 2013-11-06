@@ -6,10 +6,11 @@ A PHP Composer class that's solves your 'complex' equations the dirty brute forc
 Example
 --------------------
 
-    ``` php
-    $oSolver = new DirtyBruteForceEquationSolver();
-	$fAnswerForX = $oSolver->solve('$x + ($x * $x)', 12);
-    ```
+```php
+<?php
+$oSolver = new DirtyBruteForceEquationSolver();
+$fAnswerForX = $oSolver->solve('$x + ($x * $x)', 12);
+```
 
 License
 -------
